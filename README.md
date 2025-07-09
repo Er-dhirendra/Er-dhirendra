@@ -7,7 +7,7 @@ Senior Software Engineer
 Dynamic and creative software developer with 9+ years of experience producing robust code for companies. Believe in the approach that “teamwork makes the dream work”. I am a quick and always-on learner who ensures better quality in every increment of his work.
 
 *   🌍  I'm based in Bengaluru, India
-*   ✉️  You can contact me at [writetodhirendra33@gmail.com](mailto:writetodhirendra33@gmail.com)
+*   ✉️  You can contact me at [dkkashyap.dev@gmail.com](mailto:dkkashyap.dev@gmail.com)
 *   🧠  I'm learning Functional Programming
 *   🤝  I'm open to collaborating on Projects### Skills 
 <p align="left">
