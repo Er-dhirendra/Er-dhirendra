@@ -4,7 +4,7 @@ Hi 👋 My name is Dhirendra Kumar Kashyap
 Senior Software Engineer
 ------------------------
 
-Dynamic and creative software developer with 9+ years of experience producing robust code for companies. Believe in the approach that “teamwork makes the dream work”. I am a quick and always-on learner who ensures better quality in every increment of his work.
+Dynamic and creative software developer with over 10 years of experience designing and delivering robust, scalable solutions for a range of organizations. Proficient in both object-oriented and functional programming paradigms, with a strong focus on clean, maintainable code. Experienced in Rust and modern system-level development, with a passion for leveraging the right tools for high-performance and safe software. A committed team player who believes that "teamwork makes the dream work," and a lifelong learner dedicated to continuous improvement and quality in every iteration.
 
 *   🌍  I'm based in Bengaluru, India
 *   ✉️  You can contact me at [dkkashyap.dev@gmail.com](mailto:dkkashyap.dev@gmail.com)
