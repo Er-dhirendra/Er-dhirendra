@@ -53,10 +53,10 @@ publishes a domain event to Kafka for downstream consumers.
 ```
 ZIO HTTP → AttendanceService → KafkaEventPublisher → Kafka Topics
                 ↓                       ↓
-         PostgreSQL (write)      Consumers (notify/payroll/HR)
+         PostgreSQL (write)      Consumers (notify / payroll / HR)
 ```
 
-**Stack:** `ZIO 2` `ZIO Kafka` `ZIO HTTP` `PostgreSQL` `Docker`
+**Stack:** `ZIO 2` `ZIO Kafka` `ZIO HTTP` `PostgreSQL` `Docker`  
 **Highlights:** Domain-driven · Type-safe errors · Zero null · Pure FP
 
 ---
@@ -75,7 +75,7 @@ and comparisons between OOP and functional approaches.
 > **SOLID principles — bad vs good examples in Scala**
 
 Shows how Scala's type system enforces what Java needs
-discipline for. Each principle demonstrated with before/after.
+discipline for. Each principle with clear before/after examples.
 
 **Stack:** `Scala 3`
 
@@ -112,7 +112,7 @@ Principles I code by:
 
 | Status | Project | Stack |
 |---|---|---|
-| 🔄 Active | Attendance Platform — adding PG + Swagger + tests | ZIO · Kafka · PG |
+| 🔄 Active | Attendance Platform — adding PG, Swagger, tests | ZIO · Kafka · PostgreSQL |
 | ⬜ Next | Distributed Rate Limiter | ZIO · Redis |
 | ⬜ Planned | Event Sourcing Platform | Kafka · ZIO Streams |
 | ⬜ Planned | Spark Performance Cookbook | Spark · Scala 3 |
@@ -126,6 +126,7 @@ Principles I code by:
 <div align="center">
 <a href="http://www.github.com/Er-dhirendra"><img src="https://github-readme-streak-stats.herokuapp.com/?user=Er-dhirendra&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
 </div>
+
 </div>
 
 ---
@@ -144,4 +145,3 @@ Principles I code by:
 
 *"First deserve, then desire."*
 
-</div>
