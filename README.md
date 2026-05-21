@@ -22,6 +22,8 @@ and **real-time data pipelines** that handle millions of events at scale.
 Currently **Lead Software Engineer at Avlino** — designing backend
 systems with ZIO, Akka/Pekko, Kafka, and Apache Spark.
 
+Publishing open-source libraries for the Scala/ZIO ecosystem — latest: [**zio-ulid**](https://github.com/Er-dhirendra/zio-ulid).
+
 > *I believe the best code reveals intent, handles failure explicitly,
 > and scales without surprises.*
 
@@ -43,6 +45,25 @@ systems with ZIO, Akka/Pekko, Kafka, and Apache Spark.
 ---
 
 ## 🚀 Featured Projects
+
+### 🆔 [zio-ulid](https://github.com/Er-dhirendra/zio-ulid) · [![CI](https://github.com/Er-dhirendra/zio-ulid/actions/workflows/ci.yml/badge.svg)](https://github.com/Er-dhirendra/zio-ulid/actions/workflows/ci.yml)
+> **Type-safe ULID generation for ZIO 2.x**
+
+Lexicographically sortable 128-bit identifiers with production-ready layers:
+`live` (SecureRandom), `monotonic` (strict ordering per millisecond), `fast`, and `deterministic` for tests.
+
+```scala
+import zio._
+import zio.ulid._
+
+ULIDGen.generate.provide(ULIDGen.live)
+// e.g. 01ARZ3NDEKTSV4RRFFQ69G5FAV
+```
+
+**Stack:** `ZIO 2` `Scala 3` `Scala 2.13` `MUnit`  
+**Maven:** `dev.zio %% "zio-ulid" % "0.1.0"` · [Central](https://central.sonatype.com/artifact/dev.zio/zio-ulid_3)
+
+---
 
 ### 🏢 [ZIO Attendance Platform](https://github.com/Er-dhirendra/attendance-system)
 > **Production-grade attendance management system**
@@ -112,7 +133,8 @@ Principles I code by:
 
 | Status | Project | Stack |
 |---|---|---|
-| 🔄 Active | Attendance Platform — adding PG, Swagger, tests | ZIO · Kafka · PostgreSQL |
+| 🔄 Active | [zio-ulid](https://github.com/Er-dhirendra/zio-ulid) — Maven Central release, docs | ZIO · MUnit · sbt-ci-release |
+| 🔄 Active | Attendance Platform — PG, Swagger, tests | ZIO · Kafka · PostgreSQL |
 | ⬜ Next | Distributed Rate Limiter | ZIO · Redis |
 | ⬜ Planned | Event Sourcing Platform | Kafka · ZIO Streams |
 | ⬜ Planned | Spark Performance Cookbook | Spark · Scala 3 |
@@ -123,9 +145,7 @@ Principles I code by:
 
 <div align="center">
 
-<div align="center">
 <a href="http://www.github.com/Er-dhirendra"><img src="https://github-readme-streak-stats.herokuapp.com/?user=Er-dhirendra&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
-</div>
 
 </div>
 
@@ -134,7 +154,7 @@ Principles I code by:
 ## 🤝 Open To
 
 - **Consulting** on distributed Scala systems, Kafka architecture, ZIO migration
-- **Collaborating** on functional Scala open source projects
+- **Collaborating** on functional Scala open source (ZIO ecosystem, libraries)
 - **Speaking** about ZIO, Akka internals, event-driven design
 
 📬 **dkkashyap.dev@gmail.com** · [LinkedIn](https://www.linkedin.com/in/dkashyap95/)
@@ -145,3 +165,4 @@ Principles I code by:
 
 *"First deserve, then desire."*
 
+</div>
