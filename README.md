@@ -92,6 +92,15 @@ and comparisons between OOP and functional approaches.
 
 ---
 
+### 📊 [Spark Performance Cookbook](https://github.com/Er-dhirendra/spark-performance-cookbook)
+> **Runnable tuning recipes for Spark SQL**
+
+Seven chapters: partitioning, broadcast joins, caching, skew, AQE, Parquet vs JSON, and UDF pitfalls — each with local demos and MUnit tests.
+
+**Stack:** `Spark 3.5` `Scala 2.13` `MUnit`
+
+---
+
 ### 📐 [SOLID in Scala](https://github.com/Er-dhirendra/scala-SOLID-principle)
 > **SOLID principles — bad vs good examples in Scala**
 
@@ -137,7 +146,7 @@ Principles I code by:
 | 🔄 Active | Attendance Platform — PG, Swagger, tests | ZIO · Kafka · PostgreSQL |
 | ⬜ Next | Distributed Rate Limiter | ZIO · Redis |
 | ⬜ Planned | Event Sourcing Platform | Kafka · ZIO Streams |
-| ⬜ Planned | Spark Performance Cookbook | Spark · Scala 3 |
+| 🔄 Active | [Spark Performance Cookbook](https://github.com/Er-dhirendra/spark-performance-cookbook) — 7 chapters, CI | Spark 3.5 · Scala 2.13 |
 
 ---
 
